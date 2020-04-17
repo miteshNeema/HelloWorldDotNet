@@ -37,6 +37,20 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+
+<PropertyGroup>
+  <PackageId>MiteshProject</PackageId>
+  <Version>1.0.0</Version>
+  <Authors>Neema</Authors>
+  <Company>Infosys</Company>
+</PropertyGroup>
+
+<ItemGroup>
+  <!-- ... -->
+  <PackageReference Include="NuGet.Build.Tasks.Pack" Version="5.2.0"/>
+  <!-- ... -->
+</ItemGroup>
+
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Web.DynamicData" />
@@ -78,6 +92,7 @@
     <Reference Include="System.Web.Mvc">
       <HintPath>..\packages\Microsoft.AspNet.Mvc.5.2.2\lib\net45\System.Web.Mvc.dll</HintPath>
     </Reference>
+
   </ItemGroup>
   <ItemGroup>
     <Content Include="Global.asax" />
@@ -133,7 +148,7 @@
       </FlavorProperties>
     </VisualStudio>
   </ProjectExtensions>
-  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+  <!-- To modify , add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">
   </Target>

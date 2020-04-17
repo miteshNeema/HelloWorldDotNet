@@ -11,7 +11,7 @@ namespace HelloWorld.Controllers
         // GET: Home
         public ActionResult Index()
         {
-            ViewBag.Message = "This is my first MVC 5 App.";
+            ViewBag.Message = "This is my first MVC 6 App.--Mitesh";
             return View();
         }
     }

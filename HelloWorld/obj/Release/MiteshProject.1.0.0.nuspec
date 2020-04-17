@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>MiteshProject</id>
+    <version>1.0.0</version>
+    <authors>Neema</authors>
+    <owners>Neema</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework=".NETFramework4.5">
+        <dependency id="NuGet.Build.Tasks.Pack" version="5.2.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="Microsoft.CSharp" targetFramework=".NETFramework4.5" />
+      <frameworkAssembly assemblyName="System.ComponentModel.DataAnnotations" targetFramework=".NETFramework4.5" />
+      <frameworkAssembly assemblyName="System.Configuration" targetFramework=".NETFramework4.5" />
+      <frameworkAssembly assemblyName="System.Core" targetFramework=".NETFramework4.5" />
+      <frameworkAssembly assemblyName="System.Data.DataSetExtensions" targetFramework=".NETFramework4.5" />
+      <frameworkAssembly assemblyName="System.Data" targetFramework=".NETFramework4.5" />
+      <frameworkAssembly assemblyName="System" targetFramework=".NETFramework4.5" />
+      <frameworkAssembly assemblyName="System.Drawing" targetFramework=".NETFramework4.5" />
+      <frameworkAssembly assemblyName="System.EnterpriseServices" targetFramework=".NETFramework4.5" />
+      <frameworkAssembly assemblyName="System.Web.ApplicationServices" targetFramework=".NETFramework4.5" />
+      <frameworkAssembly assemblyName="System.Web" targetFramework=".NETFramework4.5" />
+      <frameworkAssembly assemblyName="System.Web.DynamicData" targetFramework=".NETFramework4.5" />
+      <frameworkAssembly assemblyName="System.Web.Entity" targetFramework=".NETFramework4.5" />
+      <frameworkAssembly assemblyName="System.Web.Extensions" targetFramework=".NETFramework4.5" />
+      <frameworkAssembly assemblyName="System.Web.Services" targetFramework=".NETFramework4.5" />
+      <frameworkAssembly assemblyName="System.Xml" targetFramework=".NETFramework4.5" />
+      <frameworkAssembly assemblyName="System.Xml.Linq" targetFramework=".NETFramework4.5" />
+    </frameworkAssemblies>
+    <contentFiles>
+      <files include="any/net45/Global.asax" buildAction="Content" />
+      <files include="any/net45/Web.config" buildAction="Content" />
+      <files include="any/net45/Views/web.config" buildAction="Content" />
+      <files include="any/net45/packages.config" buildAction="Content" />
+      <files include="any/net45/Views/Home/Index.cshtml" buildAction="Content" />
+    </contentFiles>
+  </metadata>
+  <files>
+    <file src="C:\Project\DotNet\HelloWorldDotNet\HelloWorld\bin\HelloWorld.dll" target="lib\net45\HelloWorld.dll" />
+    <file src="C:\Project\DotNet\HelloWorldDotNet\HelloWorld\Global.asax" target="content\Global.asax" />
+    <file src="C:\Project\DotNet\HelloWorldDotNet\HelloWorld\Global.asax" target="contentFiles\any\net45\Global.asax" />
+    <file src="C:\Project\DotNet\HelloWorldDotNet\HelloWorld\Web.config" target="content\Web.config" />
+    <file src="C:\Project\DotNet\HelloWorldDotNet\HelloWorld\Web.config" target="contentFiles\any\net45\Web.config" />
+    <file src="C:\Project\DotNet\HelloWorldDotNet\HelloWorld\Views\web.config" target="content\Views\web.config" />
+    <file src="C:\Project\DotNet\HelloWorldDotNet\HelloWorld\Views\web.config" target="contentFiles\any\net45\Views\web.config" />
+    <file src="C:\Project\DotNet\HelloWorldDotNet\HelloWorld\packages.config" target="content\packages.config" />
+    <file src="C:\Project\DotNet\HelloWorldDotNet\HelloWorld\packages.config" target="contentFiles\any\net45\packages.config" />
+    <file src="C:\Project\DotNet\HelloWorldDotNet\HelloWorld\Views\Home\Index.cshtml" target="content\Views\Home\Index.cshtml" />
+    <file src="C:\Project\DotNet\HelloWorldDotNet\HelloWorld\Views\Home\Index.cshtml" target="contentFiles\any\net45\Views\Home\Index.cshtml" />
+  </files>
+</package>
